@@ -1,0 +1,73 @@
+html{
+	height:100%;
+}
+body{
+	margin:0;
+	font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+	color: #fff;
+}
+.container{
+	min-height: 100vh;
+	background-color: darkcyan;
+	display: flex;
+	flex-direction:column;
+	justify-content: space-between;
+}
+.navbar{
+	display: flex;
+	height:7vh;
+	justify-content: space-between;
+	padding:0;
+	box-shadow:5px 5px 5px rgba(0,0,0.5);
+}
+.navbar-brand{
+	display:flex;
+}
+.navbar-links{
+	display: flex;
+	align-items: flex-end;
+}
+.navbar-links a{
+	display: flex;
+	margin-right: 10px;
+	text-decoration: none;
+	font-size:large;
+	color:tomato;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+a:hover,a:visited,a:current{
+	text-decoration: underline;
+	background-color: aquamarine;
+}
+.main-content{
+	justify-content: space-between;
+}
+.note,.note2{ 
+	text-align: center;
+}
+h2{
+	color:tomato;
+}
+.sidebar{
+	display:flex;
+	justify-content: space-around;
+	margin-top: 30px;
+}
+.navbar-bottom{
+	display:flex;
+}
+.navbar-bottom a{
+	display: flex;
+	margin-right: 10px;
+	text-decoration: none;
+}
+.footer{
+	display: flex;
+	height:5vh;
+	justify-content: center;
+	padding: 0 5vw 0vw 5vw;
+}
+.copyright{
+	display: flex;
+	flex-direction: column;
+}

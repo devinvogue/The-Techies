@@ -1,0 +1,84 @@
+body{
+	margin:0;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	color : rgba(255,255,255,.8);
+}
+.container{
+	background-color: darkcyan;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column; 
+	justify-content: space-between;
+}
+.navbar{
+	display: flex;
+	height:7vh;
+	justify-content: space-between;
+	padding:0;
+	box-shadow:5px 5px 5px rgba(0,0,0.5);
+}
+.navbar-brand{
+	display:flex;
+}
+.navbar-links{
+	display: flex;
+	align-items: flex-end;
+}
+.navbar-links a{
+	display: flex;
+	margin-right: 20px;
+	text-decoration: none;
+	font-size: 1.2em;
+	color:tomato;
+}
+.main{
+    display: flex;
+    padding: 0 3vw 0 3vw;
+    justify-content: space-around;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    margin-top: 50px;
+    font-size: 1.2em;
+}
+.article{
+	display:flex;
+	flex-direction: column;
+	align-self: stretch;
+	margin-top: 70px;
+}
+.sidebar{
+	display:flex;
+	justify-content: space-around;
+	margin-top: 30px;
+}
+.navbar-bottom{
+	display:flex;
+}
+.navbar-bottom a{
+	display: flex;
+	margin-right: 10px;
+	text-decoration: none;
+}
+a:hover, a:active{
+	text-decoration: underline;
+}
+.footer{
+	display: flex;
+	height:5vh;
+	justify-content: center;
+	padding: 0 5vw 0vw 5vw;
+	font-family: fantasy;
+}
+.copyright{
+	display:inline-flex;
+	flex-direction: row;
+	margin-right: 5px;
+}
+.label form p{
+	margin-right: 5px;
+}
+.label form{
+	display:flex;
+	align-items: baseline;
+	margin-right: 15px;
+	height:5vh;
+}
