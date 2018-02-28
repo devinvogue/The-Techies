@@ -1,0 +1,260 @@
+.container.main{
+  min-height: 100%  ;
+}
+
+@media (max-width: 574px) {
+    .body{
+        width: fit-content;
+    }
+}
+
+
+
+.header {
+
+    background-image: url("../images/t4.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    margin-top: 70px;
+
+}
+
+.header-text {
+    color: white;
+    text-align: center;
+}
+
+.header-text hr {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+.header-text li {
+    color: white;
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.header-text a {
+    color: white;
+    border-color: white;
+
+}
+
+.main{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.main .about img{
+   float: left;
+    width: 30%;
+    margin: 10px;
+    border: 1px solid #c0c0c0;
+}
+
+.main .about p{
+    color: rgba(123, 123, 123, 0.81);
+    margin: 10px;
+
+}
+.center-text {
+    color: #aaa;
+    text-transform: uppercase;
+    font-size: 20px;
+    border-left: 4px solid #b78c33;
+    padding-left: 5px;
+    margin-left: 40%;
+
+}
+
+.live-item {
+    margin: 10px;
+    text-align: center;
+    border: lightgrey solid 1px;
+
+}
+
+.live-item img {
+    margin-top: 10px;
+}
+
+.live-item a {
+
+}
+
+.glyphicon {
+    color: #fff;
+}
+
+.panel {
+    margin-bottom: 0px;
+}
+
+.panel-body {
+    background-color: #FFF;
+    border: 1px solid #CCC;
+}
+
+.top-bar {
+    background: #0097e9;
+    color: white;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+    padding-right: 13px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 45px;
+}
+
+
+.list-inline li{
+    display: inline-block;
+}
+.box-position {
+    position: fixed;
+    bottom: 0;
+   right: 0;
+    width: 100%;
+}
+
+footer.nb-footer {
+    background: #222;
+    border-top: 4px solid #b78c33;
+}
+
+footer.nb-footer .about {
+    margin: 0 auto;
+    margin-top: 40px;
+    max-width: 1170px;
+    text-align: center;
+}
+
+footer.nb-footer .about p {
+    font-size: 13px;
+    color: #999;
+    margin-top: 30px;
+}
+
+footer.nb-footer .about .social-media {
+    margin-top: 15px;
+}
+
+footer.nb-footer .about .social-media ul li a {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #b78c33;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+footer.nb-footer .about .social-media ul li a:hover {
+    background: #b78c33;
+    color: #fff;
+    border-color: #b78c33;
+}
+
+footer.nb-footer .footer-info-single {
+    margin-top: 30px;
+}
+
+footer.nb-footer .footer-info-single .title {
+    color: #aaa;
+    text-transform: uppercase;
+    font-size: 16px;
+    border-left: 4px solid #b78c33;
+    padding-left: 5px;
+}
+
+footer.nb-footer .footer-info-single ul li a {
+    display: block;
+    color: #aaa;
+    padding: 2px 0;
+}
+
+footer.nb-footer .footer-info-single ul li a:hover {
+    color: #b78c33;
+}
+
+footer.nb-footer .footer-info-single p {
+    font-size: 13px;
+    line-height: 20px;
+    color: #aaa;
+}
+
+footer.nb-footer .copyright {
+    margin-top: 15px;
+    background: #111;
+    padding: 7px 0;
+    color: #999;
+}
+
+footer.nb-footer .copyright p {
+    margin: 0;
+    padding: 0;
+}
+
+
+     /* Always set the map height explicitly to define the size of the div
+      * element that contains the map. */
+ #map {
+     height: 80%;
+ }
+/* Optional: Makes the sample page fill the window. */
+
+.controls {
+    margin-top: 10px;
+    border: 1px solid transparent;
+    border-radius: 2px 0 0 2px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 32px;
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+#origin-input,
+#destination-input {
+    background-color: #fff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 12px;
+    padding: 0 11px 0 13px;
+    text-overflow: ellipsis;
+    width: 200px;
+}
+
+#origin-input:focus,
+#destination-input:focus {
+    border-color: #4d90fe;
+}
+
+#mode-selector {
+    color: #fff;
+    background-color: #4d90fe;
+    margin-left: 12px;
+    padding: 5px 11px 0px 11px;
+}
+
+#mode-selector label {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.panel-title {
+    height: 50px;
+    text-align: center;
+    color: white;
+    background-color: #0097e9;
+    border-top-left-radius: 20px ;
+    border-top-right-radius: 20px ;
+}
