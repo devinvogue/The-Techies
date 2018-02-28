@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="./assets/css/bookings.css">
+		<link rel="stylesheet" type="text/css" href="./assets/css/bulma.css">
+	</head>
+<body>
+  <!-- NAVBAR STARTS HERE-->
+    <nav class="navbar is-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="#" >
+            <img src="assets/imgs/tractor.png" alt="A logo of a tractor"><h1>WeMove</h1>
+          </a>
+        </div>
+        <div class="nav-burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="navbar-start">
+          <a class="navbar-item" href="index.html">Home</a>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">About Us</a>
+            <div class="navbar-dropdown is-boxed" style="background-color: #3B3643 !important;">
+              <a class="navbar-item" href="#">Our Team</a>
+              <a class="navbar-item" href="offers.html">Our Services</a>
+              <a class="navbar-item" href="#">Blog</a>
+            </div>
+        </div>
+        </div>
+          <a class="navbar-item" href="bookings.html">Bookings</a>
+      </div>
+    </nav>
+    <!--NAVBAR ENDS HERE-->
+
+		<div id="pageTitle">
+      Book Us Now!
+    </div>
+
+    <!--FORM FOR BOOKING BEGINS HERE-->
+            
+    <div id="wrapper">
+      <div class="form"  id="form-movement">
+        <div class="field">
+          <label class="label">First name</label>
+            <div class="control">
+              <input class="input" type="text" placeholder="First name"  name="firstname" id="firstName">
+            </div>
+        </div>
+        <div class="field">
+          <label class="label">Last name</label>
+            <div class="control">
+              <input class="input" type="text" placeholder="Last name" name="lastname" id="lastName">
+            </div>
+        </div>
+        <div class="field">
+          <label class="label">Email address</label>
+            <div class="control has-icons-left">
+              <input class="input" type="text" placeholder="Email" name="email" id="email">
+                <span class="icon is-small is-left">
+                  <i class="fas fa-envelope"></i>
+                </span>
+            </div>
+              <p class="help">Please enter a valid email address</p>
+        </div>
+        <div class="field">
+          <label class="label">Which Date</label>
+            <div class="control">
+              <input class="input" type="date" name="date" id="dateOptions">
+            </div>
+        <div class="field">
+          <label class="label">Where from?</label>
+            <div class="control">
+              <input class="input" type="text" placeholder="e.g. Lashibi" name="fromLocationInput">
+            </div>
+        </div>
+        <div class="field">
+          <label class="label">Where To?</label>
+            <div class="control">
+              <input class="input" type="text" placeholder="e.g.Tema" name="toLocationInput">
+            </div>
+        </div>
+        <div class="field">
+          <label class="label">How did you hear about us</label>
+            <div class="control">
+              <div class="select">
+                <select>
+			            <option value="null">Select One</option>
+			            <option value="1">Social Media</option>
+			            <option value="2">Advertisement</option>
+			            <option value="3">Television/Magazines</option>
+			            <option value="4">Others</option>
+                </select>
+              </div>
+            </div>
+        <div class="field">
+          <label class="label">Any additional info?</label>
+            <div class="control">
+              <textarea class="textarea" placeholder="e.g. fragile items that should be handled with care" id="infoInput"></textarea>
+            </div>
+        </div>
+        <div class="field">
+          <div class="control">
+            <label class="checkbox">
+              <input type="checkbox">
+                I agree to the <a href="#">terms and conditions</a>
+            </label>
+          </div>
+        </div>
+        <div class="field">
+          <div class="control">
+            <label class="radio">
+              <input type="radio" name="question">
+                Yes
+            </label>
+            <label class="radio">
+              <input type="radio" name="question">
+                No
+            </label>
+          </div>
+        </div>
+        <div class="field is-grouped is-grouped-multiline">
+          <p class="control" class="btn1">
+            <a class="button is-primary" id="submitButton">
+              Submit
+            </a>
+          </p>
+          <p class="control" class="btn2">
+            <a class="button is-light">
+              Cancel
+            </a>
+          </p>
+        </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+        <!-- FORM ENDS HERE-->
+
+        <!--FOOTER BEGINS HERE-->
+      <footer class="footer">  
+      <div class="wrapper">
+        <div>
+          <h3><strong>SiteMap</strong></h3>
+            <p>Accra Digital Centre<br>
+              Established 2018
+              Ghana.
+            </p>
+            <p>&copy; 2018</p>
+        </div>
+        <div>
+          <h1><strong>Office</strong></h1>
+            <p>Developers In Vogue<br>
+            Accra Digital Centre<br> 
+            24 Akushika Street.
+            </p>
+        </div>
+        <div>
+          <h1><strong>Connect</strong></h1>
+            <p>Facebook&nbsp;<i class="far fa-arrow-alt-circle-right"></i></i><br>
+              Twitter&nbsp;<i class="far fa-arrow-alt-circle-right"></i><br>
+              LinkedIn&nbsp;<i class="far fa-arrow-alt-circle-right"></i><br>
+              Instagram&nbsp;<i class="far fa-arrow-alt-circle-right"></i>
+            </p>
+        </div>
+        <div>
+          <h1><strong>Contact</strong></h1>
+            <p><i class="fas fa-mobile"></i> 0241267116<br>
+              <i class="fas fa-envelope-square"></i> WeMove@gmail.com
+            </p>
+        </div>
+      </div>
+    </footer>
+    <!--END OF FOOTER-->
+
+	    <script src="assets/js/feedback.js">
+        
+      </script>
+</body>
+</html>

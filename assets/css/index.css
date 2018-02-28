@@ -1,0 +1,53 @@
+@import url('fontawesome-all.min.css');
+
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Roboto+Slab|Varela+Round');
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed|Bree+Serif|Roboto+Slab|Varela+Round');
+
+
+/* universal font selection */
+
+/* !important is variable that is used to overide/customize bulma properties */
+
+*{
+	font-family: 'Barlow Semi Condensed', sans-serif;
+}
+html,body{
+	height: 100%;
+	line-height: 1.5rem;
+}
+nav{
+	background-color: #3B3643 !important;
+	padding:1rem !important;
+}
+.navbar-item,.navbar-link{
+	color: white !important;
+}
+.hero.is-fullheight{
+	background:url('../../assets/imgs/b-movers.png') no-repeat center center fixed;
+	background-size: cover;
+	-webkit-background-size:cover;
+	-o-background-size:cover;
+}
+.hero.is-fullheight{
+	box-shadow: none;
+}
+.box{
+	float:right;
+	width: 20rem;
+    margin:1rem !important;
+}
+h1.title{
+	color:white;
+	font-weight: bold;
+	font-size: 3rem;
+	font-family: 'Bree Serif', serif;
+}
+h2.subtitle{
+    color: white;
+    opacity:0.7;
+}
+.wrapper{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+}

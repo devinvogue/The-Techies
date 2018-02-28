@@ -1,0 +1,75 @@
+@import url('fontawesome-all.min.css');
+
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Roboto+Slab|Varela+Round');
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed|Bree+Serif|Roboto+Slab|Varela+Round');
+
+*{
+	font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+html{
+	height: 100%;
+}
+body{
+	color:black;
+	background-color: #3B3643;
+}
+.container{
+	color: black;
+	margin: 0;
+	padding: 0;
+}
+.navbar{
+    background-color: #3B3643 !important;
+    color:white !important;
+
+}
+.navbar-item,.navbar-link{
+	color:white !important;
+}
+#wrapper{
+	display: flex;
+	justify-content: space-around;
+}
+.form{
+	width:40rem;
+	background-color: white;
+	padding: 2rem;
+}
+.enter{
+	text-align: center;
+}
+#pageTitle{
+	font-size: 3rem;
+	font-weight: bold;
+	font-family: 'Bree Serif', serif;
+	text-align: center;
+	margin-top: 4rem;
+	color:white;
+}
+.email{
+    width:500px;
+	padding: 10px;
+}
+#refer{
+	width:500px;
+	padding: 10px;
+}
+#comment{
+	width:500px;
+	padding: 10px;
+}
+.button{
+	width:500px;
+	padding: 10px;
+	border-color: #0000CD;
+}
+.btn1,.btn2{
+	margin-top: 5rem;
+}
+
+.wrapper{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+}

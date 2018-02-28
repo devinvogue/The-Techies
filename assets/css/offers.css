@@ -1,0 +1,52 @@
+@import url('fontawesome-all.min.css');
+
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Roboto+Slab|Varela+Round');
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed|Bree+Serif|Roboto+Slab|Varela+Round');
+
+*{
+	font-family: 'Barlow Semi Condensed', sans-serif;
+}
+html,body{
+	height: 100%;
+	background:#ECF0F3;
+
+}
+.navbar{
+	background-color: #3B3643 !important;
+}
+.navbar-item,.navbar-link{
+	color: white !important;
+}
+h3.title{
+	text-align: center;
+	font-family: 'Bree Serif', serif;
+}
+.tile{
+	margin: 2rem;
+}
+.column{
+	margin:2rem;
+}
+p{
+	text-align: center;
+}
+article{
+	background-color: tomato !important;
+}
+.offers{
+	display: flex;
+	justify-content: space-between;
+}
+.card-header{
+	display: flex;
+	padding:2rem;
+	align-items: center;
+}
+.button.is-primary{
+	align-items: center;
+}
+.wrapper{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+}

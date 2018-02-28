@@ -1,264 +1,140 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>iTraffic Home</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
-
-
-
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/index.js"></script>
-    <script defer src="js/fontawesome-all.min.js"></script>
-
-    <link href="images/logo.png" rel="icon">
-
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">	
+	<title>Homepage</title>
+	<link rel="stylesheet" type="text/css" href="./assets/css/index.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/bulma.css">
+	<!-- <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet"> -->
 </head>
 <body>
+    <section class="hero is-fullheight">
+        <div class="hero-head">
+            <!--START OF NAVBAR-->
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-    <!--<a class="navbar-brand" href="#"> <img src="images/logo.png" width="50" height="40" alt="">iTraffic</a>-->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="about.html">About Us</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="report.html">Report</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                   aria-haspopup="true" aria-expanded="false">
-                  Extras
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Road Safety Measures</a>
-                    <a class="dropdown-item" href="#">New & Blog</a>
-
-                   
-                </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="faq.html">FAQ's</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="policy.html">Privacy Policy</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact Us</a>
-            </li>
-
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search"></i> Search
-            </button>
-        </form>
-        <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link"><i class="fas fa-sign-in-alt"></i> Sign Up</a></li>
-            <li class="nav-item"><a class="nav-link"><i class="fas fa-lock"></i> Login</a></li>
-
-        </ul>
-    </div>
-</nav>
-<div class="body">
-<div class="col-md-12 col-sm-12 jumbotron header">
-    <div class="header-text">
-        <h1>iTraffic</h1>
-        <p>Keeping Our Roads Safe</p>
-        <hr>
-        <ul class="list-inline intro-social-buttons">
-            <li><a class="btn btn-outline-primary btn-lg" href="singup.html"><i class="fas fa-sign-in-alt"></i> REGISTER</a></li>
-            <li><a class="btn btn-outline-primary btn-lg" href="login.html" ><i class="fas fa-lock"></i> LOGIN</a></li>
-        </ul>
-    </div>
-</div>
-
-<div class="container main">
-    <!-- Content here -->
-
-
-    <h4 class="center-text">About Us</h4>
-
-    <div class="row main">
-
-        <div class="col-md-12 about">
-           <img src="images/t1.jpeg" class="img-thumbnail"  >
-
-            <p>iTRAFFIC is a traveller information service provided to the Motor Transport and Traffic Directorate. It provides traffic conditions information, road works, congestion and traffic alert information for Accra and other regions. iTRAFFIC informs travellers in these regions about current conditions on the national roads, with more detailed information for the urban areas where it has real-time congestion information.</p>
-       <a class="btn btn-outline-primary" href="about.html">Read More...</a>
-        </div>
-
-        
-
-
-    </div>
-        <h4 class="center-text">Select your region for live traffic feed</h4>
-
-    <div class="row main col-md-12">
-
-        <div class="col-md-3 live-item">
-            <img src="images/accra.jpg" class="img img-fluid">
-            <h5>Accra</h5>
-            <h6> <i class="fas fa-phone"></i> (+233) 24 123 456</h6>
-            <hr>
-           <a href="accra.html" >View Live Map </a>
-        </div>
-
-        <div class="col-md-3 live-item">
-            <img src="images/tema.png" class="img img-fluid">
-            <h5>Tema</h5>
-            <h6> <i class="fas fa-phone"></i> (+233) 24 123 456</h6>
-            <hr>
-            <a href="tema.html" >View Live Map </a>
-        </div>
-
-        <div class="col-md-3 live-item">
-            <img src="images/kumasi.jpg" class="img img-fluid">
-            <h5>Kumasi</h5>
-            <h6> <i class="fas fa-phone"></i> (+233) 24 123 456</h6>
-            <hr>
-            <a href="kumasi.html" >View Live Map </a>
-        </div>
-
-
-    </div>
-
-</div>
-
-
-
-<footer class="nb-footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3 col-sm-6">
-                <div class="about">
-                    <img src="images/logo.png" class="img-fluid center-block" width="100px" alt="">
-
-                    <div class="social-media">
-                        <ul class="list-inline">
-                            <li><a href="http://www.nextbootstrap.com/" title=""><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="http://www.nextbootstrap.com/" title=""><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="http://www.nextbootstrap.com/" title=""><i class="fab fa-google-plus-g"></i></a></li>
-                            <li><a href="http://www.nextbootstrap.com/" title=""><i class="fab fa-linkedin-in"></i></a></li>
-                        </ul>
+            <nav class="navbar is-fixed-top" role="navigation">
+            	<div class="container">
+                    <div class="navbar-brand">
+                        <a class="navbar-item" href="#" >
+                            <img src="assets/imgs/tractor.png" alt="A logo of a tractor"><h1>WeMove</h1>
+                        </a>
+                    </div>
+                    <div class="nav-burger">
+                	   <span></span>
+                	   <span></span>
+                	   <span></span>
+                    </div>
+                    <div class="navbar-start">
+                        <a class="navbar-item" href="index.html">Home</a>
+                    </div>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link" href="#">About Us</a>
+                    <div class="navbar-dropdown is-boxed" style="background-color: #3B3643 !important;">
+                        <a class="navbar-item" href="#">Our Team</a>
+                        <a class="navbar-item" href="offers.html">Our Services</a>
+                        <a class="navbar-item" href="#">Blog</a>
                     </div>
                 </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6">
-                <div class="footer-info-single">
-                    <h2 class="title">Help Center</h2>
-                    <ul class="list-unstyled">
-                        <li><a href="" title=""><i class="fa fa-angle-double-right"></i> How to Use site</a></li>
-                        <li><a href="faq.html" title=""><i class="fa fa-angle-double-right"></i> FAQ's</a></li>
-                        <li><a href="" title=""><i class="fa fa-angle-double-right"></i> Sitemap</a></li>
-                        <li><a href="" title=""><i class="fa fa-angle-double-right"></i> Traffic Info</a></li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6">
-                <div class="footer-info-single">
-                    <h2 class="title">Customer information</h2>
-                    <ul class="list-unstyled">
-                        <li><a href="accra.html" title=""><i class="fa fa-angle-double-right"></i> About Us</a></li>
-                        <li><a href="faq.html" title=""><i class="fa fa-angle-double-right"></i> FAQ's</a></li>
-                        <li><a href="contact.html" title=""><i class="fa fa-angle-double-right"></i> Contact Us</a></li>
-
-                    </ul>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6">
-                <div class="footer-info-single">
-                    <h2 class="title">Security & privacy</h2>
-                    <ul class="list-unstyled">
-                        <li><a href="#" title=""><i class="fa fa-angle-double-right"></i> Terms Of Use</a></li>
-                        <li><a href="#" title=""><i class="fa fa-angle-double-right"></i> Privacy Policy</a></li>
-
-                    </ul>
-                </div>
-            </div>
-
-
+                    <a class="navbar-item" href="bookings.html">Bookings</a>
+            </nav>
         </div>
-    </div>
+        
+        <!-- END OF NAVBAR-->
 
-    <section class="copyright">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    <p>Copyright © 2018. Mondakaiketsu.</p>
-                </div>
-                <div class="col-sm-6"></div>
-            </div>
+        <div class="hero-body">
+    	    <div class="container has-text-centered">
+    		    <div class="column is-6 is-offset-3">
+    			    <h1 class="title" id="colorChange">
+    			    We Can Lend A Hand!
+    		        </h1>
+    	            <h2 class="subtitle">With WeMove on your side, you'll be able to move your items quickly and easier without hassles, and be able to use your time to do other important stuff. <i class="fab fa-facebook-f"></i>
+    	            </h2>
+    	        </div>
+    	        <div class="level-item">
+                    <a href="bookings.html" class="button is-primary">Book our service</a>
+                </div>  
+    	    </div>
         </div>
+        <div class="box is-right">
+
+        <!-- LOGIN FORM STARTS HERE-->
+
+    	<form>
+    	    <div class="field">
+    	    	<label>Username</label>
+    		    <p class="control has-icons-left">
+                    <input class="input is-danger" type="text" name="Username" placeholder="username" id="usernameInput" required/>
+                        <span class="icon is-small is-left">
+                            <i class="fas fa-envelope"></i>
+                        </span>
+                        <span class="icon is-small is-right">
+                            <i class="fas fa-check"></i>
+                        </span>
+                </p>
+            </div>
+            <div class="field">
+            	<label>Password</label>
+                <p class="control has-icons-left">
+                    <input class="input is-danger" type="text" name="password" placeholder="Password" id="passwordInput" required/>
+                    <span class="icon is-small is-left">
+                        <i class="fas fa-lock"></i>
+                    </span>
+                </p>
+            </div>
+    	</form>
+    	<div class="field">
+                <p class="control">
+                    <button class="button is-success" value="submit" id="submitButton">
+                        Login
+                    </button>
+                </p>
+    	    </div>
+    	</div>
     </section>
-</footer>
-</div>
-<!--<section class="box-position">
-    <div class="">
-        <div class="col-xs-12 col-md-3 col-sm-4 float-right">
 
-            <!-- Message box title   
-            <div class="panel">
-                <a class="collapsed " id="msg_collapse" role="button" data-toggle="collapse" data-parent="#accordion" href="#message" aria-expanded="false" aria-controls="message">
-                <div class="panel-heading top-bar" role="tab" id="open-message">
+    <!-- LOGIN FORM ENDS HERE 
 
-
-                        <p class="panel-title"><span class="fa fa-comment"></span>   Quick Message
-
-                            <span id="fa-plus" class="fas fa-plus float-right"></span></p>
-
-
-
-
-                </div>
-                </a>
+    <!BEGINNING OF FOOTER--> 
+    
+    <footer class="footer">
+        <div class="wrapper">
+            <div>
+                <h3><strong>SiteMap</strong></h3>
+                <p>Accra Digital Centre<br>
+                   Established 2018
+                   Ghana.
+                </p>
+                <p>&copy; 2018</p> 
             </div>
-
-            <!-- Message body	
-
-            <div id="message" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                <div class="panel-body">
-                    <form  action="#">
-
-                        <div class="form-group ">
-                            <input type="text" class="form-control" id="name" placeholder="Name" required="required">
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control" id="subject" placeholder="Subject" required="required">
-                        </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control" id="email" placeholder="Email" required="required">
-                        </div>
-                        <div class="form-group">
-                            <textarea type="text" class="form-control" id="mes" placeholder="Message..." required="required"></textarea>
-                        </div>
-
-                        <div class="form-group">
-                            <input type="submit" class="form-control btn-success" id="submit" value="Send">
-                        </div>
-
-                    </form>
-                </div>
-            </div>
-
+        <div>
+            <h1><strong>Office</strong></h1>
+            <p>Developers In Vogue<br>
+            Accra Digital Centre<br> 
+            24 Akushika Street.
+            </p>
         </div>
-    </div>
+        <div>
+            <h1><strong>Connect</strong></h1>
+            <p>Facebook&nbsp;<i class="far fa-arrow-alt-circle-right"></i></i><br>
+               Twitter&nbsp;<i class="far fa-arrow-alt-circle-right"></i><br>
+               LinkedIn&nbsp;<i class="far fa-arrow-alt-circle-right"></i><br>
+               Instagram&nbsp;<i class="far fa-arrow-alt-circle-right"></i>
+            </p>
+        </div>
+        <div>
+            <h1>Contact</h1>
+            <p><i class="fas fa-mobile"></i> 0241267116<br>
+                <i class="fas fa-envelope-square"></i> WeMove@gmail.com
+            </p>
+        </div>
+    </footer>
+    <!--FOOTER ENDS HERE-->
 
-</section>-->
-</body>
+
+        <script type="text/javascript" src="assets/js/index.js">
+    	
+        </script>
+    </body>
 </html>
